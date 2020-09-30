@@ -1,6 +1,6 @@
 from tkinter import *
 import parser
-
+#we are importing the parser for package opening
 root = Tk()
 root.title('Calculator')
 
