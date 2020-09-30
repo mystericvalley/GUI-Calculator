@@ -1,6 +1,6 @@
 from tkinter import *
 import parser
-#we are importing the parser for package opening
+#we are importing the parser for package opening for the better understanding
 root = Tk()
 root.title('Calculator')
 
@@ -57,7 +57,7 @@ Button(root, text="7", command=lambda: get_variables(7)).grid(row=4, column=0)
 Button(root, text="8", command=lambda: get_variables(8)).grid(row=4, column=1)
 Button(root, text="9", command=lambda: get_variables(9)).grid(row=4, column=2)
 
-
+#button are used for better algorithmic functioning
 Button(root, text="AC", command=lambda: clear_all()).grid(row=5, column=0)
 Button(root, text="0", command=lambda: get_variables(0)).grid(row=5, column=1)
 Button(root, text="=", command=lambda: calculate()).grid(row=5, column=2)
